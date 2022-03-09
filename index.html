@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <style>
+    body {
+      margin: auto;
+    }
+    .my-custom-row {
+      height: 600px;
+      background-color: #e8f4f0;
+    }
+    .box {
+      background-color: white;
+      height: 300px;
+      transition: background-color .25s; 
+    }
+    .box:hover {
+      background-color: #742fb9;
+      cursor: pointer;
+      color: white;  
+    }
+    /*faghat color ro dadam white display va visibility javab nadad :| */
+    .hide {
+      color :white;
+      transition: transform 0.25s;   
+  }
+    .hide:hover {
+      transform: translateY(5px);
+    }
+
+  </style>
+</head>
+<body>
+  
+  <div class="container">
+    <div class="row my-custom-row justify-content-center align-content-center">
+      <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="p-3 border box position-relative">
+          <h1>270</h1>
+          <hr>
+          <h4 class="text-uppercase">care facilities</h4>
+          <br>
+            <!--in ghesmat be jaye div span gozashtam vali transition kar nakard :(  -->
+          <div class="hide">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Voluptatem ea cupiditate sequi,</div>
+          
+          <p class="position-absolute bottom-0 start-0 p-3 text-capitalize">view all providers <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+          </svg></p>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="p-3 border box position-relative">
+          <h1>12,000</h1>
+          <hr>
+          <h4 class="text-uppercase">employees</h4>
+          <br>
+            <!--in ghesmat be jaye div span gozashtam vali transition kar nakard :(  -->
+          <div class="hide">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Voluptatem ea cupiditate sequi,</div>
+          
+          <p class="position-absolute bottom-0 start-0 p-3 text-capitalize">view informations <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+          </svg></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+</body>
+</html>
